@@ -28,5 +28,12 @@ function clickIt(e){
     e.style.backgroundColor("lightblue")
 }
 
-function
+function mouseOver(e){
+    e.target.classList.toggle("highlight");
+}
+
+function mouseOut(e){
+    e.target.classList.toggle("highlight");
+    e.target.removeAttribute("style");
+}
     
