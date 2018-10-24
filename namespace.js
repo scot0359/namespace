@@ -11,7 +11,7 @@ var SCOT0359 = {
         
         let div = document.createElement("box");
         div.className("box");
-        div.textContent("scot0359")
+        div.textContent("SCOT0359")
         
         let boxes = document.getElementById("box");
         boxes.appendChild("div");
