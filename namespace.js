@@ -15,26 +15,27 @@ var SCOT0359 = {
 
         document.getElementById("boxes").appendChild("div");
 
-        div.addEventListener("click", clickIt);
-        div.addEventListener("mouseover", mouseOver);
-        div.addEventListener("mouseout", mouseOut);
+        div.addEventListener("click", function(){
+            
+            div.style.borderColor("blue");
+            div.style.backgroundColor("red");
+            
+        });
         
-        
+        div.addEventListener("mouseover", function(){
+            
+            div.target.classList.toggle("highlight");
+            
+        });
+        div.addEventListener("mouseout", function(){
+            
+            div.target.classList.toggle("highlight");
+            div.target.removeAttribute("style");
+            
+        });
+            
     } 
 };
 
-function clickIt() {
-    this.style.borderColor("blue");
-    this.style.backgroundColor("red");
-}
-
-function mouseOver() {
-    this.target.classList.toggle("highlight");
-}
-
-function mouseOut() {
-    this.target.classList.toggle("highlight");
-    this.target.removeAttribute("style");
-}
 
 
