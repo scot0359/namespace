@@ -25,7 +25,7 @@ var SCOT0359 = {
 
         div.addEventListener("mouseover", function () {
 
-            div.target.classList.toggle("highlight");
+            div.classList.toggle("highlight");
 
         });
         div.addEventListener("mouseout", function () {
