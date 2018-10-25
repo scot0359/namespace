@@ -13,8 +13,7 @@ var SCOT0359 = {
         div.className("box");
         div.textContent("scot0359");
 
-        let boxes = document.getElementById("boxes");
-        boxes.appendChild("div");
+        document.getElementById("boxes").appendChild("div");
 
         div.addEventListener("click", clickIt);
         div.addEventListener("mouseover", mouseOver);
