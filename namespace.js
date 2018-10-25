@@ -11,7 +11,7 @@ var SCOT0359 = {
         
         let div = document.createElement("box");
         div.className("box");
-        div.textContent("SCOT0359")
+        div.textContent("SCOT0359");
         
         let boxes = document.getElementById("box");
         boxes.appendChild("div");
@@ -24,8 +24,8 @@ var SCOT0359 = {
 }
 
 function clickIt(e){
-    e.style.borderColor("blue")
-    e.style.backgroundColor("lightblue")
+    e.style.borderColor("blue");
+    e.style.backgroundColor("lightblue");
 }
 
 function mouseOver(e){
