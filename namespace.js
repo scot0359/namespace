@@ -9,7 +9,7 @@ var SCOT0359 = {
 
     init: function () {
 
-        let div = document.createElement("div");
+        var div = document.createElement("div");
         div.className("box");
         div.textContent("scot0359");
 
@@ -21,6 +21,8 @@ var SCOT0359 = {
         
         
     }
+    
+    
 
 };
 
