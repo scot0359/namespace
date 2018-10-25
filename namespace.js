@@ -9,7 +9,7 @@ var SCOT0359 = {
 
     init: function () {
 
-        let div = document.createElement("box");
+        let div = document.createElement("div");
         div.className("box");
         div.textContent("scot0359");
 
