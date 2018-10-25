@@ -25,18 +25,18 @@ var SCOT0359 = {
 
 };
 
-function clickIt(e) {
-    e.style.borderColor("blue");
-    e.style.backgroundColor("lightblue");
+function clickIt() {
+    this.style.borderColor("blue");
+    this.style.backgroundColor("lightblue");
 }
 
-function mouseOver(e) {
-    e.target.classList.toggle("highlight");
+function mouseOver() {
+    this.target.classList.toggle("highlight");
 }
 
-function mouseOut(e) {
-    e.target.classList.toggle("highlight");
-    e.target.removeAttribute("style");
+function mouseOut() {
+    this.target.classList.toggle("highlight");
+    this.target.removeAttribute("style");
 }
 
 
