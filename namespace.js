@@ -13,7 +13,8 @@ var SCOT0359 = {
         div.className = "box";
         div.textContent = "scot0359";
 
-        document.getElementById("boxes").appendChild("div");
+        let boxes = document.getElementById("boxes");
+        boxes.appendChild(div);
 
         div.addEventListener("click", function () {
 
@@ -29,8 +30,8 @@ var SCOT0359 = {
         });
         div.addEventListener("mouseout", function () {
 
-            div.target.classList.toggle("highlight");
-            div.target.removeAttribute("style");
+            div.classList.toggle("highlight");
+            div.removeAttribute("style");
 
         });
 
