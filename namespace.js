@@ -9,16 +9,16 @@ var SCOT0359 = {
 
     init: function () {
 
-        let myDiv = document.createElement("div");
-        myDiv.className("box");
-        myDiv.textContent("scot0359");
+        let div = document.createElement("div");
+        div.className("box");
+        div.textContent("scot0359");
 
         let boxes = document.getElementById("boxes");
         boxes.appendChild("div");
 
-        myDiv.addEventListener("click", clickIt);
-        myDiv.addEventListener("mouseover", mouseOver);
-        myDiv.addEventListener("mouseout", mouseOut);
+        div.addEventListener("click", clickIt);
+        div.addEventListener("mouseover", mouseOver);
+        div.addEventListener("mouseout", mouseOut);
     }
 
 }
