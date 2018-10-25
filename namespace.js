@@ -23,7 +23,7 @@ var SCOT0359 = {
         
     }
 
-}
+};
 
 function clickIt(e) {
     e.style.borderColor("blue");
@@ -38,3 +38,5 @@ function mouseOut(e) {
     e.target.classList.toggle("highlight");
     e.target.removeAttribute("style");
 }
+
+
