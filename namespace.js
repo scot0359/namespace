@@ -19,6 +19,8 @@ var SCOT0359 = {
         div.addEventListener("click", clickIt);
         div.addEventListener("mouseover", mouseOver);
         div.addEventListener("mouseout", mouseOut);
+        
+        
     }
 
 }
