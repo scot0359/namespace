@@ -20,10 +20,7 @@ var SCOT0359 = {
         div.addEventListener("mouseout", mouseOut);
         
         
-    }
-    
-    
-
+    } 
 };
 
 function clickIt() {
