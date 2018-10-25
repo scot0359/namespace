@@ -30,7 +30,7 @@ var SCOT0359 = {
         div.addEventListener("mouseout", function () {
 
             div.target.classList.toggle("highlight");
-            div.target.removeAttribute("style");
+            div.target.removeAttribute('style');
 
         });
 
