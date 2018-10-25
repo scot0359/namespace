@@ -25,7 +25,7 @@ var SCOT0359 = {
 
 function clickIt() {
     this.style.borderColor("blue");
-    this.style.backgroundColor("lightblue");
+    this.style.backgroundColor("red");
 }
 
 function mouseOver() {
