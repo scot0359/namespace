@@ -13,7 +13,7 @@ var SCOT0359 = {
         myDiv.className("box");
         myDiv.textContent("scot0359");
 
-        let boxes = document.getElementById("box");
+        let boxes = document.getElementById("boxes");
         boxes.appendChild("div");
 
         myDiv.addEventListener("click", clickIt);
