@@ -17,8 +17,8 @@ var SCOT0359 = {
 
         div.addEventListener("click", function(){
             
-            div.style.borderColor("blue");
-            div.style.backgroundColor("red");
+            div.style.borderColor="blue";
+            div.style.backgroundColor="red";
             
         });
         
