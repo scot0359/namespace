@@ -14,7 +14,7 @@ var SCOT0359 = {
         div.textContent("SCOT0359")
         
         let boxes = document.getElementById("box");
-        boxes.appendChild("box");
+        boxes.appendChild("div");
         
         div.addEventListener("click", clickIt);
         div.addEventListener("mouseover", mouseOver);
